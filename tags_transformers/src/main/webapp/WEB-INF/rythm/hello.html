@@ -1,0 +1,9 @@
+@args String who
+@extends(main, title="JavaTagBean Demo")
+@{
+    float amount = 123.45f;
+}
+<ul>
+    <li>call a java tag: foo is @foo()</li>
+    <li>call a transformer: RMB of @amount is @amount.app_toRMB()</li>
+</ul>
