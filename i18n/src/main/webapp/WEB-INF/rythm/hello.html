@@ -1,0 +1,18 @@
+@args String who
+@extends(main, title="helloworld")
+
+<p>@i18n("choose_lang")</p>
+<ul>
+    <li>
+        <a href='@url("/?lang=zh_CN")'>中文</a>
+    </li>
+    <li>
+        <a href='@url("/?lang=en")'>English</a>
+    </li>
+</ul>
+
+<p>@i18n("hello") @who!</p>
+
+<p>@i18n("complex_exp")</p>
+
+@i18n("template", "planet", 7, new Date())

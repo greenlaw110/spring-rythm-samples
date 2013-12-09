@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="2.837" errors="0" skipped="0" tests="1" name="org.rythmengine.spring.samples.helloworld.AppTests">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="R:\jdk\jre\bin"/>
+    <property name="java.vm.version" value="20.45-b01"/>
+    <property name="java.vm.vendor" value="Sun Microsystems Inc."/>
+    <property name="java.vendor.url" value="http://java.sun.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="AU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="c:\p\spring-rythm-samples\multiviewers"/>
+    <property name="java.runtime.version" value="1.6.0_45-b06"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="c:\p\spring-rythm-samples\multiviewers"/>
+    <property name="java.endorsed.dirs" value="R:\jdk\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="C:\Users\LUOG~1.IKA\AppData\Local\Temp\surefirebooter504945967559328711.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\LUOG~1.IKA\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="R:\jdk\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;R:\Vim\vim74;R:\npp;R:\tools;R:\jdk\bin;R:\env\alias;R:\env\etc;R:\env\bin;R:\env\import;R:\env\tbin;R:\cygwin\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;C:\Program Files\TortoiseSVN\bin;R:\play;c:\j\ant\bin;c:\j\mvn\bin;C:\apps\mongodb\bin;C:\apps\nodejs\;C:\apps\android-sdk\tools;C:\l\j\play-1.2.7;C:\go\bin;C:\apps\graphviz-2.34\bin;C:\Users\luog.IKARI\AppData\Roaming\npm;."/>
+    <property name="surefire.test.class.path" value="c:\p\spring-rythm-samples\multiviewers\target\test-classes;c:\p\spring-rythm-samples\multiviewers\target\classes;C:\Users\luog.IKARI\.m2\repository\org\springframework\spring-core\3.2.5.RELEASE\spring-core-3.2.5.RELEASE.jar;C:\Users\luog.IKARI\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\luog.IKARI\.m2\repository\org\springframework\spring-web\3.2.5.RELEASE\spring-web-3.2.5.RELEASE.jar;C:\Users\luog.IKARI\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\luog.IKARI\.m2\repository\org\springframework\spring-aop\3.2.5.RELEASE\spring-aop-3.2.5.RELEASE.jar;C:\Users\luog.IKARI\.m2\repository\org\springframework\spring-beans\3.2.5.RELEASE\spring-beans-3.2.5.RELEASE.jar;C:\Users\luog.IKARI\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;C:\Users\luog.IKARI\.m2\repository\javax\servlet\jsp\jsp-api\2.1\jsp-api-2.1.jar;C:\Users\luog.IKARI\.m2\repository\org\springframework\spring-webmvc\3.2.5.RELEASE\spring-webmvc-3.2.5.RELEASE.jar;C:\Users\luog.IKARI\.m2\repository\org\springframework\spring-expression\3.2.5.RELEASE\spring-expression-3.2.5.RELEASE.jar;C:\Users\luog.IKARI\.m2\repository\org\springframework\spring-context\3.2.5.RELEASE\spring-context-3.2.5.RELEASE.jar;C:\Users\luog.IKARI\.m2\repository\org\springframework\spring-orm\3.2.5.RELEASE\spring-orm-3.2.5.RELEASE.jar;C:\Users\luog.IKARI\.m2\repository\org\springframework\spring-jdbc\3.2.5.RELEASE\spring-jdbc-3.2.5.RELEASE.jar;C:\Users\luog.IKARI\.m2\repository\org\springframework\spring-tx\3.2.5.RELEASE\spring-tx-3.2.5.RELEASE.jar;C:\Users\luog.IKARI\.m2\repository\org\springframework\spring-context-support\3.2.5.RELEASE\spring-context-support-3.2.5.RELEASE.jar;C:\Users\luog.IKARI\.m2\repository\org\springframework\security\spring-security-core\3.1.4.RELEASE\spring-security-core-3.1.4.RELEASE.jar;C:\Users\luog.IKARI\.m2\repository\org\springframework\spring-test\3.2.5.RELEASE\spring-test-3.2.5.RELEASE.jar;C:\Users\luog.IKARI\.m2\repository\org\springframework\security\spring-security-web\3.1.4.RELEASE\spring-security-web-3.1.4.RELEASE.jar;C:\Users\luog.IKARI\.m2\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;C:\Users\luog.IKARI\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\luog.IKARI\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\luog.IKARI\.m2\repository\org\rythmengine\spring-rythm\1.0-SNAPSHOT\spring-rythm-1.0-SNAPSHOT.jar;C:\Users\luog.IKARI\.m2\repository\org\rythmengine\rythm-engine\1.0-b11-SNAPSHOT\rythm-engine-1.0-b11-SNAPSHOT.jar;C:\Users\luog.IKARI\.m2\repository\org\eclipse\jdt\core\compiler\ecj\3.7.2\ecj-3.7.2.jar;C:\Users\luog.IKARI\.m2\repository\com\stevesoft\pat\pat\1.5.3\pat-1.5.3.jar;C:\Users\luog.IKARI\.m2\repository\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar;C:\Users\luog.IKARI\.m2\repository\com\alibaba\fastjson\1.1.27\fastjson-1.1.27.jar;C:\Users\luog.IKARI\.m2\repository\org\mvel\mvel2\2.1.5.Final\mvel2-2.1.5.Final.jar;C:\Users\luog.IKARI\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\luog.IKARI\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\luog.IKARI"/>
+    <property name="user.timezone" value="Australia/Sydney"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="luog"/>
+    <property name="java.class.path" value="c:\p\spring-rythm-samples\multiviewers\target\test-classes;c:\p\spring-rythm-samples\multiviewers\target\classes;C:\Users\luog.IKARI\.m2\repository\org\springframework\spring-core\3.2.5.RELEASE\spring-core-3.2.5.RELEASE.jar;C:\Users\luog.IKARI\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\luog.IKARI\.m2\repository\org\springframework\spring-web\3.2.5.RELEASE\spring-web-3.2.5.RELEASE.jar;C:\Users\luog.IKARI\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\luog.IKARI\.m2\repository\org\springframework\spring-aop\3.2.5.RELEASE\spring-aop-3.2.5.RELEASE.jar;C:\Users\luog.IKARI\.m2\repository\org\springframework\spring-beans\3.2.5.RELEASE\spring-beans-3.2.5.RELEASE.jar;C:\Users\luog.IKARI\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;C:\Users\luog.IKARI\.m2\repository\javax\servlet\jsp\jsp-api\2.1\jsp-api-2.1.jar;C:\Users\luog.IKARI\.m2\repository\org\springframework\spring-webmvc\3.2.5.RELEASE\spring-webmvc-3.2.5.RELEASE.jar;C:\Users\luog.IKARI\.m2\repository\org\springframework\spring-expression\3.2.5.RELEASE\spring-expression-3.2.5.RELEASE.jar;C:\Users\luog.IKARI\.m2\repository\org\springframework\spring-context\3.2.5.RELEASE\spring-context-3.2.5.RELEASE.jar;C:\Users\luog.IKARI\.m2\repository\org\springframework\spring-orm\3.2.5.RELEASE\spring-orm-3.2.5.RELEASE.jar;C:\Users\luog.IKARI\.m2\repository\org\springframework\spring-jdbc\3.2.5.RELEASE\spring-jdbc-3.2.5.RELEASE.jar;C:\Users\luog.IKARI\.m2\repository\org\springframework\spring-tx\3.2.5.RELEASE\spring-tx-3.2.5.RELEASE.jar;C:\Users\luog.IKARI\.m2\repository\org\springframework\spring-context-support\3.2.5.RELEASE\spring-context-support-3.2.5.RELEASE.jar;C:\Users\luog.IKARI\.m2\repository\org\springframework\security\spring-security-core\3.1.4.RELEASE\spring-security-core-3.1.4.RELEASE.jar;C:\Users\luog.IKARI\.m2\repository\org\springframework\spring-test\3.2.5.RELEASE\spring-test-3.2.5.RELEASE.jar;C:\Users\luog.IKARI\.m2\repository\org\springframework\security\spring-security-web\3.1.4.RELEASE\spring-security-web-3.1.4.RELEASE.jar;C:\Users\luog.IKARI\.m2\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;C:\Users\luog.IKARI\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\luog.IKARI\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\luog.IKARI\.m2\repository\org\rythmengine\spring-rythm\1.0-SNAPSHOT\spring-rythm-1.0-SNAPSHOT.jar;C:\Users\luog.IKARI\.m2\repository\org\rythmengine\rythm-engine\1.0-b11-SNAPSHOT\rythm-engine-1.0-b11-SNAPSHOT.jar;C:\Users\luog.IKARI\.m2\repository\org\eclipse\jdt\core\compiler\ecj\3.7.2\ecj-3.7.2.jar;C:\Users\luog.IKARI\.m2\repository\com\stevesoft\pat\pat\1.5.3\pat-1.5.3.jar;C:\Users\luog.IKARI\.m2\repository\org\apache\commons\commons-lang3\3.1\commons-lang3-3.1.jar;C:\Users\luog.IKARI\.m2\repository\com\alibaba\fastjson\1.1.27\fastjson-1.1.27.jar;C:\Users\luog.IKARI\.m2\repository\org\mvel\mvel2\2.1.5.Final\mvel2-2.1.5.Final.jar;C:\Users\luog.IKARI\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\luog.IKARI\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="R:\jdk\jre"/>
+    <property name="sun.java.command" value="C:\Users\LUOG~1.IKA\AppData\Local\Temp\surefirebooter504945967559328711.jar C:\Users\LUOG~1.IKA\AppData\Local\Temp\surefire6606198091849883233tmp C:\Users\LUOG~1.IKA\AppData\Local\Temp\surefire5477537924557160836tmp"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_45"/>
+    <property name="java.ext.dirs" value="R:\jdk\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="R:\jdk\jre\lib\resources.jar;R:\jdk\jre\lib\rt.jar;R:\jdk\jre\lib\sunrsasign.jar;R:\jdk\jre\lib\jsse.jar;R:\jdk\jre\lib\jce.jar;R:\jdk\jre\lib\charsets.jar;R:\jdk\jre\lib\modules\jdk.boot.jar;R:\jdk\jre\classes"/>
+    <property name="java.vendor" value="Sun Microsystems Inc."/>
+    <property name="localRepository" value="C:\Users\luog.IKARI\.m2\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://java.sun.com/cgi-bin/bugreport.cgi"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase time="2.617" classname="org.rythmengine.spring.samples.helloworld.AppTests" name="simple"/>
+</testsuite>
