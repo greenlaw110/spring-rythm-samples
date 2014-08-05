@@ -1,7 +1,5 @@
 @args String who
-@extends(main, title="helloworld")
-
-@i18n("hello") @who!
+@extends(main, title="i18n demo")
 
 <p>@i18n("choose_lang")</p>
 <ul>
@@ -12,3 +10,9 @@
         <a href='@url("/?lang=en")'>English</a>
     </li>
 </ul>
+
+<p>@i18n("hello") @who!</p>
+
+<p>@i18n("complex_exp")</p>
+
+@i18n("template", "planet", 7, new Date())

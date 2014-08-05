@@ -20,15 +20,6 @@
         <property name="defaultEncoding" value="UTF-8"/>
     </bean>
 
-    <bean id="veclocityConfig" class="org.springframework.web.servlet.view.velocity.VelocityConfigurer">
-        <property name="resourceLoaderPath">
-            <value>/</value>
-        </property>
-        <property name="preferFileSystemAccess">
-            <value>false</value>
-        </property>
-    </bean>
-
     <bean id="rythmConfig" class="org.rythmengine.spring.web.RythmConfigurer">
         <property name="resourceLoaderPath" value="/WEB-INF/rythm/"/>
         <property name="devMode" value="true"/>
@@ -47,25 +38,6 @@
         <!--<property name="prefix" value="/WEB-INF/rythm/"></property>-->
         <!--<property name="suffix" value=".html"></property>-->
         <property name="order" value="0"/>
-    </bean>
-
-    <bean class="org.springframework.web.servlet.view.velocity.VelocityViewResolver">
-        <property name="prefix">
-            <value>/WEB-INF/velocity/</value>
-        </property>
-        <property name="suffix">
-            <value>.vm</value>
-        </property>
-        <property name="exposeSpringMacroHelpers">
-            <value>true</value>
-        </property>
-        <property name="order" value="1"></property>
-    </bean>
-
-    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-        <property name="prefix" value="/WEB-INF/pages/"/>
-        <property name="suffix" value=".jsp"/>
-        <property name="order" value="2"/>
     </bean>
 
     <bean id="localeResolver" class="org.springframework.web.servlet.i18n.CookieLocaleResolver"/>
