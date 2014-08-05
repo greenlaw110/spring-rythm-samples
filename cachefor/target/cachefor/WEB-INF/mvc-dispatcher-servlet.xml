@@ -6,7 +6,7 @@
         http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
-    <context:component-scan base-package="org.rythmengine.spring.samples.helloworld"/>
+    <context:component-scan base-package="org.rythmengine.spring.samples.cachefor"/>
 
     <bean id="rythmConfig" class="org.rythmengine.spring.web.RythmConfigurer">
         <property name="resourceLoaderPath" value="/WEB-INF/rythm/"/>
@@ -17,6 +17,13 @@
         inside the xml configuration file, which is version controlled,
         -->
         <property name="devMode" value="true"/>
+        <property name="enableCacheFor" value="true"/>
+        <property name="engineConfig">
+            <props>
+                <!-- disable cache.prod_only to enable cache even on dev mode -->
+                <prop key="cache.prod_only.enabled">false</prop>
+            </props>
+        </property>
     </bean>
 
     <bean class="org.rythmengine.spring.web.RythmViewResolver">
