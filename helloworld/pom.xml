@@ -9,8 +9,8 @@
 
     <properties>
         <spring.version>3.2.6.RELEASE</spring.version>
+        <spring_rythm.version>1.0.1-SNAPSHOT</spring_rythm.version>
         <tomcat.version>7.0.55</tomcat.version>
-        <sprint_rythm.version>1.0.1-SNAPSHOT</sprint_rythm.version>
         <tomcat.port>8080</tomcat.port>
     </properties>
 
