@@ -80,7 +80,7 @@
     </dependencies>
 
     <build>
-        <finalName>javatags</finalName>
+        <finalName>tags_transformers</finalName>
         <plugins>
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
