@@ -10,9 +10,15 @@
     <properties>
         <spring.version>3.2.6.RELEASE</spring.version>
         <tomcat.version>7.0.55</tomcat.version>
-        <sprint_rythm.version>1.0.1-SNAPSHOT</sprint_rythm.version>
+        <spring_rythm.version>1.0.1-SNAPSHOT</spring_rythm.version>
         <tomcat.port>8080</tomcat.port>
     </properties>
+
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
+    </parent>
 
     <dependencies>
         <dependency>
@@ -69,7 +75,7 @@
         <dependency>
             <groupId>org.rythmengine</groupId>
             <artifactId>spring-rythm</artifactId>
-            <version>${sprint_rythm.version}</version>
+            <version>${spring_rythm.version}</version>
         </dependency>
 
         <dependency>
