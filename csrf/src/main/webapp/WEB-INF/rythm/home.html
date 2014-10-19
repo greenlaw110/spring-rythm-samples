@@ -1,0 +1,25 @@
+@extends(main)
+<h1>CSRF Demo</h1>
+<section>
+  <h3>Form with CSRF token</h3>
+  <form action="/csrf" method="post">
+    <input type="hidden" name="__csrf" value="@csrf.value">
+    <div>
+      <label>Type in your message</label>
+      <input type="text" name="msg">
+    </div>
+
+    <button>Submit</button>
+  </form>
+</section>
+<section>
+  <h3>Form without CSRF token</h3>
+  <form action="/csrf" method="post">
+    <div>
+      <label>Type in your message</label>
+      <input type="text" name="msg">
+    </div>
+
+    <button>Submit</button>
+  </form>
+</section>
